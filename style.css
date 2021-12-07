@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+:root {
+
+
+    --fonte-android:'Android', cursive ;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(rgb(37, 175, 37),hotpink,rgb(16, 107, 143));
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px;
+    margin: 15px 0px;
+}
+/* cabecalho*/
+header {
+    padding-top: 20px;
+    color: honeydew;
+    background: linear-gradient(rgb(98, 185, 98),rgb(31, 100, 31),green);
+}
+.titulo {
+    padding: 10px;
+    text-align: center;
+    }
+.subtitulo {
+    text-align: center;
+    font-size: 10pt;
+    padding: 5px;
+}
+/* Menu*/
+nav {
+    background: rgba(4, 121, 20, 0.904);
+    position: relative;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    text-decoration: none;
+   
+    }
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+nav li a:hover {
+    background-color: #0caa49;
+    transition-duration: 1s;
+}
+nav > ul {
+    list-style: none;
+    }
+    /*Corpo*/
+main {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 5px 10px rgb(10, 70, 4);
+        min-width: 320px;
+        max-width: 1000px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 5px;
+    }
+h2 {
+    font-family:var(--fonte-android);
+    color: green ;
+    padding: 10px;
+}
+h3 {
+    font-family:var(--fonte-android);
+    color: green ;
+    background-color: #84E1AD;
+    margin: 10px;
+}
+div.video01 {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+    min-width: 300px;
+    background-color:rgb(2, 78, 2) ;
+}
+div.video01 iframe {
+
+}
+#androidp {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+img {
+    max-width: 100%;
+    text-align: center;
+    
+}
+/* Extra */
+aside ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+.extra1 {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.extra {
+    background-color: rgb(112, 209, 125);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+/* Rodape */
+footer {
+    background: rgba(4, 68, 4, 0.781);
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+}
